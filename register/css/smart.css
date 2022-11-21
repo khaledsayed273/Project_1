@@ -1,0 +1,52 @@
+
+.head .logo {
+    width: 111px;
+    height: 44px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.parent-of-country .form-row select,
+.parent-of-country .form-row input {
+    width: 90%;
+}
+
+.parent-size input {
+    width: 90%;
+}
+
+.parent-of-country .form-row select {
+    padding: 11px;
+    margin-top: 2px;
+}
+
+form input {
+    padding: 12px !important;
+}
+
+
+.parent-of-btn button {
+    width: 143px;
+    height: 50px;
+    font-weight: 700;
+}
+
+.parent-of-btn .register {
+    background-color: #8a25b1;
+    border-radius: 10px;
+}
+
+.parent-of-btn .back {
+    width: 143px;
+    height: 50px;
+    flex-grow: 0;
+    border-radius: 10px;
+    border: solid 1px #12141d;
+}
+
+h1{
+    font-family: Franklin Gothic Medium;
+}

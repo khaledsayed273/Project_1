@@ -1,0 +1,75 @@
+@media (max-width: 767px) {
+    .modal-content{
+        width: 90% !important;
+    }
+    .alert-inp{
+        width: 100% !important;
+    }
+}
+
+.head {
+    padding-top: 30px;
+}
+
+.head .logo {
+    min-width: 111px;
+    max-width: 120px;
+    height: 44px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.register {
+    font-weight: 600;
+    width: 143px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 1px #12141d;
+}
+
+.parent-of-password {
+    position: relative;
+}
+
+.fa-eye-slash {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.parent-of-foot {
+    height: 130px;
+}
+
+a {
+    color: #71717a;
+    text-decoration: none;
+}
+
+.alert-inp {
+    width: 593px;
+    height: 59px;
+    flex-grow: 0;
+    margin: 8px 0 0;
+    padding: 16px;
+    border-radius: 5px;
+    border: solid 1px #e4e4e7;
+}
+
+
+.Login {
+    width: 143px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #8a25b1;
+    border: 0;
+    font-weight: 600;
+}
+
+.Login:hover , 
+.register:hover{
+    opacity: 0.9;
+}

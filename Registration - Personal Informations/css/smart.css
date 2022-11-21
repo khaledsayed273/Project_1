@@ -1,0 +1,73 @@
+.head .logo {
+    width: 111px;
+    height: 44px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form h1 {
+    width: 342px;
+    height: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: Poppins;
+}
+
+form label {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+form .form-row {
+    max-width: 459px;
+    
+}
+
+form input{
+    height: 59px;
+    margin: 8px 0 0;
+    padding: 16px ;
+    border-radius: 5px;
+    border: solid 1px #e4e4e7;
+}
+
+form label,
+form input {
+    margin: 5px 0;
+}
+
+.login {
+    width: 143px;
+    height: 50px;
+    flex-grow: 0;
+    gap: 10px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: solid 1px #12141d;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.parent-of-btn{
+    margin: 50px 0 20px;
+}
+
+.continue {
+    width: 143px;
+    height: 50px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #8a25b1;
+    font-weight: 600;
+}
+
+
+

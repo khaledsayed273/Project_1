@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/smart.css">
+</head>
+
+<body>
+
+    <section class="form h-100 ">
+        <div class="container h-100">
+            <div class="row mt-5 h-100">
+                <div class="col-lg-8">
+                    <img src="./imeges/Tablet login-bro 1.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-4 p-2 d-flex justify-content-center flex-column">
+                    <div class="head mb-3 d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <img class="w-100" src="./imeges/WhatsApp_Image_2022-05-10_at_1.28.48_PM-removebg-preview.png" alt="">
+                        </div>
+                        <button class="register bg-white">Register</button>
+                    </div>
+                    <h2 class="fw-bold">Login</h2>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <div class="parent-of-password">
+                                <input type="password" class="form-control inp" id="exampleInputPassword1"
+                                    placeholder="Enter password">
+                                <i id="eye" class="fa-solid fa-eye-slash"></i>
+                            </div>
+                        </div>
+                        <div class="parent-of-foot d-flex flex-column justify-content-between align-items-end">
+
+                            <a data-bs-toggle="modal" href="#exampleModalToggle" role="button">Forget password?</a>
+
+                            <button class="Login text-white">Login</button>
+                        </div>
+                    </form>
+
+                <!--Start Alert Input-->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content w-auto m-auto" >
+                            <div class="modal-header border-bottom-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                </div>
+                                <h1 class="d-flex justify-content-center align-items-center fw-900">Forget Password</h1>
+                            <div class="modal-body d-flex flex-column justify-content-center align-items-start p-5">
+                                <label class="mb-3" for="">Email Address</label>
+                                <input class="alert-inp form-control" type="email" placeholder="Enter email address">
+                            </div>
+                            <div class="modal-footer d-flex justify-content-center align-items-center">
+                                <button class="Login" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Alert Input-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
