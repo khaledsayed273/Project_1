@@ -41,12 +41,19 @@
     .num3 .container .parent-of-cards .card{
         margin: 10px 0;
     }
+
+    .num4 .container .parent .child h1{
+        font-size: 30px !important;
+    }
     
 }
 
 @media (max-width: 767px) {
     .num2{
         height: 600px !important;
+    }
+    .num4 .container .parent .child h1{
+        font-size: 20px !important;
     }
     
 }
@@ -473,4 +480,5 @@ footer .container-fluid .imege {
 .links ul{
     list-style: none;
 }
+
 
