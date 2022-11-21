@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (min-width:1400px) {
+    .num3{
+        overflow: hidden !important;
+        min-height: 700px !important;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    
+    footer .container-fluid{
+        width: 80% !important;
+    }
+    .join h1 {
+        font-size: 4.3rem !important;
+        font-weight: bold;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    footer{
+        min-height: 600px !important;
+    }
+    .num3 .container .head h1{
+        font-size: 25px;
+    }
+    .num3 .container .parent-of-cards{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .num3 .container .parent-of-cards .card{
+        margin: 10px 0;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .num2{
+        height: 600px !important;
+    }
+    
+}
+
+
+header {
+    background-color: #fafafa;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+
+.navbar-brand .imege{
+    width: 111px;
+    height: 44px;
+}
+
+
+.Buttons {
+    width: 238px;
+}
+
+.Buttons a {
+    width: 83px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.login {
+    border: 1px solid rgb(31, 31, 31);
+}
+
+.register {
+    background-color: #8a25b1;
+    font-size: 16px;
+    width: 106px !important;
+    color: white;
+    border: 0;
+}
+
+
+/********** section   ***********/
+
+
+section {
+    min-height: 923px;
+    padding: 221px 0 111px 0;
+    background-color: #fafafa;
+}
+
+
+section .carousel-control-prev {
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(185 185 185);
+    cursor: pointer;
+    color: white;
+}
+
+section .carousel-control-next {
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    background-color: #8a25b1;
+    color: white;
+    cursor: pointer;
+}
+
+section .container .carousel-indicators span{
+    background-color: #665f5f ;
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%;
+}
+
+
+
+section .shape {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section .shape .parent-of-cards {
+    width: 90%;
+    height: 90%;
+    background-color: #f09116;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+
+}
+
+section .shape .parent-of-cards img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+section .shape .parent-of-cards img.card1 {
+    transform: translateX(10px) translateY(25px) rotate(17deg);
+}
+
+section .shape .parent-of-cards img.card2 {
+    z-index: 1;
+    transform: translateX(85px) translateY(-50px) rotate(-10deg);
+}
+
+section .about h1 {
+    font-size: 70px;
+    letter-spacing: -1px;
+    line-height: 88px;
+}
+
+
+
+button.btn {
+    background-color: #8a25b1;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    height: 75px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+section .about p i {
+    background-color: #2ead2e;
+    padding: 5px;
+    margin-right: 7px;
+    color: white;
+    border-radius: 50%;
+}
+
+
+/************************** aside ***************/
+
+
+aside {
+    width: 100%;
+    min-height: 100vh;
+}
+
+aside .num1 {
+    background-color: #4bd18e;
+    width: 100%;
+    height: 700px;
+    color: white;
+    text-align: center;
+    overflow: auto;
+
+}
+
+aside .num1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.parent-of-head {
+    height: 40%;
+    width: 100%;
+
+}
+
+.Easy-Invoicing {
+    height: 70px;
+    flex-grow: 0;
+    margin: 0 0 48px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-end;
+}
+
+aside .num1 .container .parent-of-head p {
+    height: 28px;
+    flex-grow: 0;
+    margin: 48px 60px 0 59px;
+    opacity: 0.9;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+
+aside .num1 .container .parent-of-more span {
+    margin: 0 10px;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    color: #4bd18e;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+aside .num1 .container .parent-of-more i {
+    font-size: 70px;
+    margin: 5px;
+}
+
+aside .num1 .container .parent-of-more {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more h3 {
+    margin-top: 20px;
+    height: 25%;
+}
+
+.more p {
+    width: 100%;
+}
+
+
+.parent-of-aside .imege {
+    
+    position: relative;
+}
+
+.parent-of-aside .imege img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.join {
+    text-align: left;
+    padding: 15px;
+}
+
+.join h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.parent-of-videos {
+    background-color: #000000a6;
+    height: 75px;
+    border-radius: 0 0 15px 15px;
+}
+
+.parent-of-videos i {
+    margin: 0 15px;
+    font-size: 36px;
+    cursor: pointer;
+    color: white;
+}
+
+.parent-of-videos i:hover {
+    opacity: 0.7;
+}
+
+.num3 {
+    height: 70vh;
+    background-color: #3a3c40;
+    overflow: auto;
+}
+
+
+.num3 .container .head h1 {
+    font-weight: 700;
+}
+
+.num3 .container .head .parent-of-next i {
+    margin: 0 10px;
+    background-color: white;
+    padding: 10px;
+    color: #424242;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.num3 .container .head .parent-of-next i:hover {
+    opacity: 0.8;
+}
+
+
+.parent-of-cards .card {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.parent-of-cards .card .parent-head h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.parent-of-cards .card .parent-head h6 {
+    color: rgb(100, 100, 100);
+}
+
+.parent-of-cards .card .imege {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.parent-of-cards .card .imege img {
+    object-fit: cover;
+}
+
+.num4 {
+    height: 70vh;
+}
+
+.num4 .container .parent {
+    background-color: #8a25b1;
+    border-radius: 15px;
+}
+
+.num4 .container .parent .child h1 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 468px;
+    text-align: center;
+}
+
+.num4 .container .parent .child p {
+    font-size: 18px;
+    width: 416px;
+    text-align: center;
+}
+
+.num4 .container .parent .child button {
+    width: 200px;
+    flex-grow: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    color: #fff;
+    background-color: #12141d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.num4 .container .parent .child button:hover{
+    background-color: black;
+}
+
+
+footer {
+    min-height: 400px;
+}
+
+
+footer .container-fluid .imege {
+    width: 429.7px;
+    height: 170px;
+}
+
+
+.links li{
+    list-style: none;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.links li h4{
+    text-align: left;
+}
+
+.links li .box{
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.links li .box li{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.links li .box li a{
+    color: #000000d0;
+    text-decoration: none;
+}
+
+.links ul{
+    list-style: none;
+}
+

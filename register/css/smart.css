@@ -28,10 +28,11 @@ form input {
 }
 
 
-.parent-of-btn button {
+.parent-of-btn a {
     width: 143px;
     height: 50px;
     font-weight: 700;
+    padding: 12px;
 }
 
 .parent-of-btn .register {
