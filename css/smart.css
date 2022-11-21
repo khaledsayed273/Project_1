@@ -58,6 +58,13 @@
     
 }
 
+@media (max-width: 461px) {
+    #showBtns{
+        display: none !important;
+    }
+    
+}
+
 
 header {
     background-color: #fafafa;
