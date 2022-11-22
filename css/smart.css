@@ -58,12 +58,6 @@
     
 }
 
-@media (max-width: 461px) {
-    #showBtns{
-        display: none !important;
-    }
-    
-}
 
 
 header {
@@ -99,6 +93,16 @@ header {
     color: white;
     border: 0;
 }
+
+
+.navbar-toggler[aria-expanded='true']{
+    border: 2px solid #8a25b1 !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
 
 
 /********** section   ***********/
@@ -202,6 +206,10 @@ section .about p i {
     border-radius: 50%;
 }
 
+.carousel-indicators{
+    bottom: -60px;
+}
+
 
 /************************** aside ***************/
 
@@ -214,10 +222,9 @@ aside {
 aside .num1 {
     background-color: #4bd18e;
     width: 100%;
-    height: 700px;
+    height: 100%;
     color: white;
     text-align: center;
-    overflow: auto;
 
 }
 
@@ -271,6 +278,16 @@ aside .num1 .container .parent-of-head p {
 }
 
 
+aside .num1 .container .parent-of-more {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
 aside .num1 .container .parent-of-more span {
     margin: 0 10px;
     background-color: #fff;
@@ -290,13 +307,7 @@ aside .num1 .container .parent-of-more i {
     margin: 5px;
 }
 
-aside .num1 .container .parent-of-more {
-    display: flex;
-    flex-direction: row;
-    height: 60%;
-    width: 100%;
-    justify-content: center;
-}
+
 
 .more {
     display: flex;
@@ -353,9 +364,8 @@ aside .num1 .container .parent-of-more {
 }
 
 .num3 {
-    height: 70vh;
+    height: 100%;
     background-color: #3a3c40;
-    overflow: auto;
 }
 
 
@@ -378,11 +388,16 @@ aside .num1 .container .parent-of-more {
 }
 
 
+.parent-of-cards{
+    margin-top: 100px;
+}
+
 .parent-of-cards .card {
     width: 400px;
     height: 250px;
     border-radius: 15px;
     padding: 20px;
+    margin: 40px 0;
 }
 
 
